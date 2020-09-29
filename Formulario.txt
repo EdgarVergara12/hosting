@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>la personalidad.</title>
+<h1>La personalidad:</h1> 
+<h2>Cada persona tiene opciones diferentes para las mismas preguntas.</h2>
+</head>
+<body>
+<p>Formulario</p>
+<p>Colocar nombre y apellido</p>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+<p>Colocar su género.</p>
+<form>
+  <input type="radio" id="hombre" name="gender" value="hombre">
+  <label for="hombre">Hombre</label><br>
+  <input type="radio" id="Mujer" name="gender" value="mujer">
+  <label for="Mujer">Mujer</label><br>
+  <input type="radio" id="Otros" name="gender" value="otros">
+  <label for="other">Otros</label>
+</form>
+<p>Escoja a su animal favorito de la lista.</p>
+<form>
+  <input type="checkbox" id="animals1" name="animals1" value="Perro">
+  <label for="animals1"> Perro</label><br>
+  <input type="checkbox" id="animals2" name="animals2" value="Conejo">
+  <label for="animals2"> Conejo</label><br>
+  <input type="checkbox" id="animals3" name="animals3" value="Hamster">
+  <label for="animals3"> Hamster</label>
+  
+</form>
+<p>Marque su color favorito.</p>
+<form>
+  <label for="favcolor">Seleccione su color favorito.:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</form>
+<p>Marque su cumpleaños.</p>
+<form>
+  <label for="cumpleaños">Cumpleaños:</label>
+  <input type="date" id="cumpleaños" name="cumpleaños">
+</form>
+<p>Día y hora de su fiesta de cumpleaños.</p>
+<form>
+  <label for="fechadecumpleaños"> (dia y hora):</label>
+  <input type="datetime-local" id="fechadecumpleaños" name="fechadecumpleaños">
+</form>
+<p>Coloque su correo.</p>
+<form>
+  <label for="email">Ingrese su correo electronico:</label>
+  <input type="email" id="email" name="email">
+</form>
+<p>cargue la imagen de su animal seleccionado.</p>
+  <label for="myfile">Seleciona un archivo:</label>
+  <input type="file" id="myfile" name="myfile">
+</form>
+<p>Confirme su cumpleaños.</p>
+<form>
+  <label for="bdaymonth">Birthday (mes y año):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+</form>
+<form>
+  <label for="quantity">cuanto le agrada el animal que seleccionó: (Entre 1 y 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form>
+<input type="button" onclick="alert('¡Gracias por responder!')" value="Click Me!">
+</body>
+</html>
